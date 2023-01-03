@@ -6,18 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-commerce</title>
     <link rel="stylesheet" href="style.css">
+    <!-- font awesome  -->
+    <script src="https://kit.fontawesome.com/fd77b927d2.js" crossorigin="anonymous"></script>
     <!-- link css bootstrap  -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
 </head>
 <body>
     <header>
         <!-- nav-var start  -->
-        <nav class="navbar bg-body-tertiary">
+        <nav class="navbar bg-body-tertiary d-flex align-items-center justify-content-around flex-nowrap container">
             <div class="container">
               <a class="navbar-brand" href="#">
-                <img src="images/logo.png"alt="Logo" width="159" height="40.81" class="d-inline-block align-text-top">
+                <img src="images/logo.png"alt="Logo" width="159" height="40" class="d-inline-block align-text-top">
               </a>
             </div>
+            <!-- search-bar  -->
+            <div class="container-fluid">
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"><i class="fa fa-solid fa-magnifying-glass"></i>
+                </form>
+              </div>
+              <!-- search-bar  -->
+              <!-- link  -->
+              <div id="navbarNavAltMarkup">
+                <div class="navbar-nav d-flex flex-row justify-content-center">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link active ms-5" aria-current="page" href="#">Product</a>
+                  <a class="nav-link active  ms-5" aria-current="page" href="#">About us</a>
+                  <a class="nav-link active ms-5" aria-current="page" href="#">contact us</a>
+                </div>
+            </div>
+                <!-- link  -->
           </nav>
         <!-- nav-var start  -->
     </header>
