@@ -3,31 +3,30 @@
     padding: 50px;
 }
 .bg-color{
-    /* color:#fceae8; */
-    background-color: rgb(238, 123, 123);
+    background-color:#fceae8;
     margin-top: 100px;
     margin-left: 50px;
     margin-left: 50px;
 }
-.headphone-title{
+.common-title{
     font-size: calc(1.375rem + 1.5vw);
     margin-top: 0;
     margin-bottom: 0.5rem;
     font-weight: 500;
     line-height: 1.2;
 }
-.headphone-details{
+.common-details{
     margin-top: 0px;
     margin-bottom: 1rem;
 }
-.headphone-price{
+.common-price{
     color: #FF136F;
     font-size: 2.5rem;
     margin-bottom: 0.5rem;
     font-weight: 500;
     line-height: 1.2;   
 }
-.headphone-button{
+.common-button{
     background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
     color: #fff;
     border: none;
@@ -41,7 +40,9 @@
 .overall-categories{
     margin-top: 100px;
 }
-
+.categories-gap{
+    margin-left: 15px;
+}
 .Watch-title{
     color: white;
 }
