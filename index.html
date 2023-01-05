@@ -14,31 +14,93 @@
 <body>
     <header>
         <!-- nav-var start  -->
-        <nav class="navbar bg-body-tertiary d-flex align-items-center justify-content-around flex-nowrap container">
-            <div class="container">
-              <a class="navbar-brand" href="#">
-                <img src="images/logo.png"alt="Logo" width="159" height="40" class="d-inline-block align-text-top">
-              </a>
-            </div>
-            <!-- search-bar  -->
-            <div class="container-fluid">
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"><i class="fa fa-solid fa-magnifying-glass"></i>
-                </form>
+        <nav class=" container navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container">
+            <a class="navbar-brand" href="#">
+              <div class="brand-logo">
+                <img src="images/logo.png" alt="Bootstrap" width="168" height="28">
               </div>
-              <!-- search-bar  -->
-              <!-- link  -->
-              <div id="navbarNavAltMarkup">
-                <div class="navbar-nav d-flex flex-row justify-content-center">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  <a class="nav-link active ms-5" aria-current="page" href="#">Product</a>
-                  <a class="nav-link active  ms-5" aria-current="page" href="#">About us</a>
-                  <a class="nav-link active ms-5" aria-current="page" href="#">contact us</a>
-                </div>
+            </a>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" href="#">Shoes</a>
+                <a class="nav-link" href="#">Backpack</a>
+                <a class="nav-link" href="#">Subscribe</a>
+              </div>
             </div>
-                <!-- link  -->
-          </nav>
-        <!-- nav-var start  -->
+          </div>
+        </nav>
+        <!-- nav-var end  -->
+        <!-- Auto-playing Carousel  -->
+        <div id="carouselExampleRide" class="carousel slide container bg-color rounded-1 " data-bs-ride="true">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row align-items-center overall-padding ">
+                <div class="col-lg-7">
+                  <h1 class="headphone-title">
+                    Cool Dude Headphone
+                  </h1>
+                  <p class="headphone-details">
+                    This is the best headphone in the world for people who just want to waste time in front of funky world.
+                  </p>
+                  <p class="headphone-price">
+                    $420
+                  </p>
+                  <button class="headphone-button">
+                    Buy Now
+                  </button>
+                </div>
+                <div class="col-lg-5">
+                  <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <!-- Auto-playing Carousel  -->
+        <!-- categories  -->
+        <div class="container text-center overall-categories">
+          <div class="row align-items-center">
+            <div class="col d-flex align-items-center Watch-background">
+              <div class="Watch-title">
+                Watch
+              </div>
+              <img src="images/categories/watch.png" alt="">
+            </div>
+            <div class="col d-flex align-items-center bag-background">
+              <div class="Bags-title">
+                Bags
+              </div>
+              <div>
+                <img src="images/categories/bag.png" alt="">
+              </div>
+            </div>
+            <div class="col d-flex align-items-center shoes-background">
+              <div class="shoes-title">
+                Shoes
+              </div>
+              <div>
+                <img src="images/categories/shoes.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- categories  -->
     </header>
     <main>
 
