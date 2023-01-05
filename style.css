@@ -36,30 +36,54 @@
     font-size: inherit;
     line-height: inherit;
 }
-/* categorious  */
+/* _____________categorious__________  */
 .overall-categories{
     margin-top: 100px;
 }
-.categories-gap{
-    margin-left: 15px;
+.categories-image{
+    width: 100px;
 }
 .Watch-title{
     color: white;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-top: 0;
 }
-.Watch-background{
-  background-color: rgb(255, 44, 44);  
+.Watch-col-background{
+  background-color: orange;
+  padding: 10px 30px;
+  border-radius: 10px;
+  align-items: center; 
 }
 .Bags-title{
     color: white;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-top: 0;
 }
-.bag-background{
-    background-color: aqua;
+.Bags-col-background{
+  background-color: orchid;
+  padding: 10px 30px;
+  border-radius: 10px;
+  align-items: center; 
 }
-.shoes-title{
+.Shoes-title{
     color: white;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-top: 0;
 }
-.shoes-background{
-    background-color: rgb(0, 36, 36);
+.Shoes-col-background{
+  background-color: blue;
+  padding: 10px 30px;
+  border-radius: 10px;
+  align-items: center; 
 }
 
 /* __________nav-var__________  */
