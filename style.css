@@ -36,7 +36,11 @@
     font-size: inherit;
     line-height: inherit;
 }
-/* _____________categorious__________  */
+/* ____nav-var_____  */
+
+/* _________________________main-section____________________  */
+
+/* ______categorious______  */
 .overall-categories{
     margin-top: 100px;
 }
@@ -85,5 +89,39 @@
   border-radius: 10px;
   align-items: center; 
 }
+/* ______categorious end______  */
 
-/* __________nav-var__________  */
+/* Shoes-section  */
+.s-c-margin{
+    margin-top: 100px;
+}
+.card-title{
+    margin-bottom: 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1.2;
+    color: #212529;
+}
+.card-text{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+    color: #212529;
+}
+.price{
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.own-button{
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    
+}
+/* Shoes-section  */
